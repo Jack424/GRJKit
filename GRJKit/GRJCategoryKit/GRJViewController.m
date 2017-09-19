@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //pod trunk push GRJKit.podspec --allow-warnings --verbose
+    
+    //pod trunk register gu_ruijie@163.com 'Jack424' --description='macbook pro'
+
 }
 
 - (void)didReceiveMemoryWarning {
