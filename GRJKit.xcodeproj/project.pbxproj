@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C8B5B111F70AC2A000DAF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B5B101F70AC2A000DAF19 /* main.m */; };
-		3C8B5B141F70AC2A000DAF19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B5B131F70AC2A000DAF19 /* AppDelegate.m */; };
-		3C8B5B171F70AC2A000DAF19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B5B161F70AC2A000DAF19 /* ViewController.m */; };
-		3C8B5B1A1F70AC2A000DAF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8B5B181F70AC2A000DAF19 /* Main.storyboard */; };
-		3C8B5B1C1F70AC2A000DAF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8B5B1B1F70AC2A000DAF19 /* Assets.xcassets */; };
-		3C8B5B1F1F70AC2A000DAF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8B5B1D1F70AC2A000DAF19 /* LaunchScreen.storyboard */; };
-		3C8B5B2A1F70AC2B000DAF19 /* GRJKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B5B291F70AC2B000DAF19 /* GRJKitTests.m */; };
-		3C8B5B351F70AC2B000DAF19 /* GRJKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B5B341F70AC2B000DAF19 /* GRJKitUITests.m */; };
-		3C8B5B461F70B04F000DAF19 /* GRJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B5B451F70B04F000DAF19 /* GRJViewController.m */; };
+		3C7513BB1F70C6C500389CFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7513AF1F70C6C500389CFF /* AppDelegate.m */; };
+		3C7513BC1F70C6C500389CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7513B01F70C6C500389CFF /* Assets.xcassets */; };
+		3C7513BD1F70C6C500389CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7513B11F70C6C500389CFF /* LaunchScreen.storyboard */; };
+		3C7513BE1F70C6C500389CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7513B31F70C6C500389CFF /* Main.storyboard */; };
+		3C7513BF1F70C6C500389CFF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C7513B51F70C6C500389CFF /* Info.plist */; };
+		3C7513C01F70C6C500389CFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7513B61F70C6C500389CFF /* main.m */; };
+		3C7513C11F70C6C500389CFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7513B81F70C6C500389CFF /* ViewController.m */; };
+		3C7513C51F70C7B400389CFF /* GRJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7513C41F70C7B400389CFF /* GRJViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,24 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C7513AE1F70C6C500389CFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C7513AF1F70C6C500389CFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C7513B01F70C6C500389CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C7513B21F70C6C500389CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C7513B41F70C6C500389CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C7513B51F70C6C500389CFF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7513B61F70C6C500389CFF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C7513B71F70C6C500389CFF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C7513B81F70C6C500389CFF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C7513C31F70C7B400389CFF /* GRJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRJViewController.h; sourceTree = "<group>"; };
+		3C7513C41F70C7B400389CFF /* GRJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRJViewController.m; sourceTree = "<group>"; };
 		3C8B5B0C1F70AC2A000DAF19 /* GRJKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRJKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C8B5B101F70AC2A000DAF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3C8B5B121F70AC2A000DAF19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3C8B5B131F70AC2A000DAF19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C8B5B151F70AC2A000DAF19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C8B5B161F70AC2A000DAF19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3C8B5B191F70AC2A000DAF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3C8B5B1B1F70AC2A000DAF19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3C8B5B1E1F70AC2A000DAF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3C8B5B201F70AC2A000DAF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C8B5B251F70AC2B000DAF19 /* GRJKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRJKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C8B5B291F70AC2B000DAF19 /* GRJKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRJKitTests.m; sourceTree = "<group>"; };
-		3C8B5B2B1F70AC2B000DAF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C8B5B301F70AC2B000DAF19 /* GRJKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRJKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C8B5B341F70AC2B000DAF19 /* GRJKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRJKitUITests.m; sourceTree = "<group>"; };
-		3C8B5B361F70AC2B000DAF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C8B5B441F70B04F000DAF19 /* GRJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRJViewController.h; sourceTree = "<group>"; };
-		3C8B5B451F70B04F000DAF19 /* GRJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRJViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +76,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C7513AD1F70C6C500389CFF /* GRJKit */ = {
+			isa = PBXGroup;
+			children = (
+				3C7513C21F70C7B400389CFF /* GRJCategoryKit */,
+				3C7513AE1F70C6C500389CFF /* AppDelegate.h */,
+				3C7513AF1F70C6C500389CFF /* AppDelegate.m */,
+				3C7513B01F70C6C500389CFF /* Assets.xcassets */,
+				3C7513B11F70C6C500389CFF /* LaunchScreen.storyboard */,
+				3C7513B31F70C6C500389CFF /* Main.storyboard */,
+				3C7513B51F70C6C500389CFF /* Info.plist */,
+				3C7513B61F70C6C500389CFF /* main.m */,
+				3C7513B71F70C6C500389CFF /* ViewController.h */,
+				3C7513B81F70C6C500389CFF /* ViewController.m */,
+			);
+			name = GRJKit;
+			path = GRJKit/GRJKit;
+			sourceTree = "<group>";
+		};
+		3C7513B91F70C6C500389CFF /* GRJKitTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GRJKitTests;
+			path = GRJKit/GRJKitTests;
+			sourceTree = "<group>";
+		};
+		3C7513BA1F70C6C500389CFF /* GRJKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GRJKitUITests;
+			path = GRJKit/GRJKitUITests;
+			sourceTree = "<group>";
+		};
+		3C7513C21F70C7B400389CFF /* GRJCategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				3C7513C31F70C7B400389CFF /* GRJViewController.h */,
+				3C7513C41F70C7B400389CFF /* GRJViewController.m */,
+			);
+			name = GRJCategoryKit;
+			path = GRJKit/GRJCategoryKit;
+			sourceTree = SOURCE_ROOT;
+		};
 		3C8B5B031F70AC2A000DAF19 = {
 			isa = PBXGroup;
 			children = (
-				3C8B5B0E1F70AC2A000DAF19 /* GRJKit */,
-				3C8B5B281F70AC2B000DAF19 /* GRJKitTests */,
-				3C8B5B331F70AC2B000DAF19 /* GRJKitUITests */,
+				3C7513AD1F70C6C500389CFF /* GRJKit */,
+				3C7513B91F70C6C500389CFF /* GRJKitTests */,
+				3C7513BA1F70C6C500389CFF /* GRJKitUITests */,
 				3C8B5B0D1F70AC2A000DAF19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,59 +138,6 @@
 				3C8B5B301F70AC2B000DAF19 /* GRJKitUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3C8B5B0E1F70AC2A000DAF19 /* GRJKit */ = {
-			isa = PBXGroup;
-			children = (
-				3C8B5B431F70B037000DAF19 /* GRJCategoryKit */,
-				3C8B5B121F70AC2A000DAF19 /* AppDelegate.h */,
-				3C8B5B131F70AC2A000DAF19 /* AppDelegate.m */,
-				3C8B5B151F70AC2A000DAF19 /* ViewController.h */,
-				3C8B5B161F70AC2A000DAF19 /* ViewController.m */,
-				3C8B5B181F70AC2A000DAF19 /* Main.storyboard */,
-				3C8B5B1B1F70AC2A000DAF19 /* Assets.xcassets */,
-				3C8B5B1D1F70AC2A000DAF19 /* LaunchScreen.storyboard */,
-				3C8B5B201F70AC2A000DAF19 /* Info.plist */,
-				3C8B5B0F1F70AC2A000DAF19 /* Supporting Files */,
-			);
-			path = GRJKit;
-			sourceTree = "<group>";
-		};
-		3C8B5B0F1F70AC2A000DAF19 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3C8B5B101F70AC2A000DAF19 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3C8B5B281F70AC2B000DAF19 /* GRJKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				3C8B5B291F70AC2B000DAF19 /* GRJKitTests.m */,
-				3C8B5B2B1F70AC2B000DAF19 /* Info.plist */,
-			);
-			path = GRJKitTests;
-			sourceTree = "<group>";
-		};
-		3C8B5B331F70AC2B000DAF19 /* GRJKitUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3C8B5B341F70AC2B000DAF19 /* GRJKitUITests.m */,
-				3C8B5B361F70AC2B000DAF19 /* Info.plist */,
-			);
-			path = GRJKitUITests;
-			sourceTree = "<group>";
-		};
-		3C8B5B431F70B037000DAF19 /* GRJCategoryKit */ = {
-			isa = PBXGroup;
-			children = (
-				3C8B5B441F70B04F000DAF19 /* GRJViewController.h */,
-				3C8B5B451F70B04F000DAF19 /* GRJViewController.m */,
-			);
-			name = GRJCategoryKit;
-			path = ../../GRJCategoryKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C8B5B1F1F70AC2A000DAF19 /* LaunchScreen.storyboard in Resources */,
-				3C8B5B1C1F70AC2A000DAF19 /* Assets.xcassets in Resources */,
-				3C8B5B1A1F70AC2A000DAF19 /* Main.storyboard in Resources */,
+				3C7513BF1F70C6C500389CFF /* Info.plist in Resources */,
+				3C7513BE1F70C6C500389CFF /* Main.storyboard in Resources */,
+				3C7513BC1F70C6C500389CFF /* Assets.xcassets in Resources */,
+				3C7513BD1F70C6C500389CFF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C8B5B461F70B04F000DAF19 /* GRJViewController.m in Sources */,
-				3C8B5B171F70AC2A000DAF19 /* ViewController.m in Sources */,
-				3C8B5B141F70AC2A000DAF19 /* AppDelegate.m in Sources */,
-				3C8B5B111F70AC2A000DAF19 /* main.m in Sources */,
+				3C7513C51F70C7B400389CFF /* GRJViewController.m in Sources */,
+				3C7513C11F70C6C500389CFF /* ViewController.m in Sources */,
+				3C7513C01F70C6C500389CFF /* main.m in Sources */,
+				3C7513BB1F70C6C500389CFF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C8B5B2A1F70AC2B000DAF19 /* GRJKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C8B5B351F70AC2B000DAF19 /* GRJKitUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,20 +311,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3C8B5B181F70AC2A000DAF19 /* Main.storyboard */ = {
+		3C7513B11F70C6C500389CFF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3C8B5B191F70AC2A000DAF19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3C8B5B1D1F70AC2A000DAF19 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C8B5B1E1F70AC2A000DAF19 /* Base */,
+				3C7513B21F70C6C500389CFF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3C7513B31F70C6C500389CFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7513B41F70C6C500389CFF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -441,7 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GRJKit/Info.plist;
+				INFOPLIST_FILE = GRJKit/GRJKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grj.www.GRJKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,7 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GRJKit/Info.plist;
+				INFOPLIST_FILE = GRJKit/GRJKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grj.www.GRJKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,6 +509,7 @@
 				3C8B5B3B1F70AC2B000DAF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C8B5B3C1F70AC2B000DAF19 /* Build configuration list for PBXNativeTarget "GRJKitTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +518,7 @@
 				3C8B5B3E1F70AC2B000DAF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C8B5B3F1F70AC2B000DAF19 /* Build configuration list for PBXNativeTarget "GRJKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +527,7 @@
 				3C8B5B411F70AC2B000DAF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
